@@ -4,7 +4,7 @@ pipeline{
         stage('Build'){
           steps{
             sh 'g++ PES1UG21CS407.cpp -o output_file'
-            build 'PES1UG21CS407'
+            build 'PES1UG21CS407-1'
           }
         }
       stage('Test'){
